@@ -1,0 +1,20 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+<Preference
+    android:title="Clear Schedule Data"
+    android:summary="Clear All Schedules Related Data."
+    android:key="clear_schedule"/>
+    <Preference
+        android:title="Clear Attendance Data"
+        android:summary="Clear All Attendance Related Data"
+        android:key="clear_attendance"/>
+    <Preference
+        android:title="Clear Notes Data"
+        android:summary="Clear All Notes Related Data"
+        android:key="clear_notes"/>
+    <Preference
+        android:title="Clear Student Data"
+        android:summary="Clear All Student Related Data"
+        android:key="clear_student"/>
+
+</PreferenceScreen>
